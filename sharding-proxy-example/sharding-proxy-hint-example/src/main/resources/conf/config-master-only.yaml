@@ -2,17 +2,17 @@ schemaName: master_only
 
 dataSources:
   ds_master:
-    url: jdbc:mysql://localhost:3306/demo_ds_master
+    url: jdbc:mysql://127.0.0.1:3306/demo_ds_master
     username: root
-    password:
+    password: root1122.
   ds_slave_0:
-    url: jdbc:mysql://localhost:3306/demo_ds_slave_0
+    url: jdbc:mysql://127.0.0.1:3306/demo_ds_slave_0
     username: root
-    password:
+    password: root1122.
   ds_slave_1:
-    url: jdbc:mysql://localhost:3306/demo_ds_slave_1
+    url: jdbc:mysql://127.0.0.1:3306/demo_ds_slave_1
     username: root
-    password:
+    password: root1122.
 
 masterSlaveRule:
   name: ds_ms

@@ -3,7 +3,7 @@ orchestration:
   overwrite: true
   registry:
     type: nacos
-    serverLists: localhost:8848
+    serverLists: 127.0.0.1:8848
     namespace:
     props:
       group: SHARDING_SPHERE_DEFAULT_GROUP
@@ -11,9 +11,9 @@ orchestration:
 
 dataSource: !!com.zaxxer.hikari.HikariDataSource
   driverClassName: com.mysql.jdbc.Driver
-  jdbcUrl: jdbc:mysql://localhost:3306/demo_ds
+  jdbcUrl: jdbc:mysql://127.0.0.1:3306/demo_ds
   username: root
-  password:
+  password: root1122.
 
 encryptRule:
   encryptors:

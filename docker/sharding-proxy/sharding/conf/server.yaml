@@ -8,12 +8,12 @@
 #  name: orchestration_ds
 #  overwrite: true
 #  registry:
-#    serverLists: localhost:2181
+#    serverLists: 127.0.0.1:2181
 #    namespace: orchestration
 #
 authentication:
   username: root
-  password: root
+  password: root1122. root
 
 props:
   max.connections.size.per.query: 1

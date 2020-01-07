@@ -3,5 +3,5 @@ orchestration:
   overwrite: false
   registry:
     type: zookeeper
-    serverLists: localhost:2181
+    serverLists: 127.0.0.1:2181
     namespace: orchestration-yaml-demo

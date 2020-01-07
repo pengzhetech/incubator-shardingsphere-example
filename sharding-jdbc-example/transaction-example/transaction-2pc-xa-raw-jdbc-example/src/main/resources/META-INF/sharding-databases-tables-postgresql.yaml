@@ -1,12 +1,12 @@
 dataSources:
   ds_0: !!com.zaxxer.hikari.HikariDataSource
-    jdbcUrl: jdbc:postgresql://localhost:5432/demo_ds_0
+    jdbcUrl: jdbc:postgresql://127.0.0.1:5432/demo_ds_0
     username: postgres
-    password: postgres
+    password: root1122. postgres
   ds_1: !!com.zaxxer.hikari.HikariDataSource
-    jdbcUrl: jdbc:postgresql://localhost:5432/demo_ds_1
+    jdbcUrl: jdbc:postgresql://127.0.0.1:5432/demo_ds_1
     username: postgres
-    password: postgres
+    password: root1122. postgres
 
 shardingRule:
   tables:

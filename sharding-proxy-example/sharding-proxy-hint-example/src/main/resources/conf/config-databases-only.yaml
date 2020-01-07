@@ -2,13 +2,13 @@ schemaName: databases_only
 
 dataSources:
   ds_0:
-    url: jdbc:mysql://localhost:3306/demo_ds_0
+    url: jdbc:mysql://127.0.0.1:3306/demo_ds_0
     username: root
-    password:
+    password: root1122.
   ds_1:
-    url: jdbc:mysql://localhost:3306/demo_ds_1
+    url: jdbc:mysql://127.0.0.1:3306/demo_ds_1
     username: root
-    password:
+    password: root1122.
 
 shardingRule:
   tables:

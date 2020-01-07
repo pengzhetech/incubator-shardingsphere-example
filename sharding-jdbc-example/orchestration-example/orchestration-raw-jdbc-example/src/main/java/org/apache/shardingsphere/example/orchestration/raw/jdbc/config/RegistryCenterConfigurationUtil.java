@@ -23,11 +23,11 @@ import java.util.Properties;
 
 public class RegistryCenterConfigurationUtil {
     
-    private static final String ZOOKEEPER_CONNECTION_STRING = "localhost:2181";
+    private static final String ZOOKEEPER_CONNECTION_STRING = "127.0.0.1:2181";
     
     private static final String NAMESPACE = "orchestration-java-demo";
     
-    private static final String NACOS_CONNECTION_STRING = "localhost:8848";
+    private static final String NACOS_CONNECTION_STRING = "127.0.0.1:8848";
 
     private static final String NACOS_NAMESPACE = "";
     

@@ -23,13 +23,13 @@ import javax.sql.DataSource;
 
 public final class DataSourceUtil {
     
-    private static final String HOST = "localhost";
+    private static final String HOST = "127.0.0.1";
     
     private static final int PORT = 3306;
     
     private static final String USER_NAME = "root";
     
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "root1122.";
     
     public static DataSource createDataSource(final String dataSourceName) {
         HikariDataSource result = new HikariDataSource();

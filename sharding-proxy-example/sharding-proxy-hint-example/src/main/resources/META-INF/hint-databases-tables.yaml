@@ -1,5 +1,5 @@
 driverClassName: com.mysql.jdbc.Driver
-jdbcUrl: jdbc:mysql://localhost:3307/databases_tables
+jdbcUrl: jdbc:mysql://127.0.0.1:3307/databases_tables
 username: root
-password: root
+password: root1122. root
 
